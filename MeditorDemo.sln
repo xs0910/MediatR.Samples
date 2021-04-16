@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "单播消息传播", "单播消息传播", "{B8B19F76-6D22-4A0D-B8DF-05C6C531018F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleMediator", "SingleMediator\SingleMediator.csproj", "{9759BE74-E315-4A37-B767-F417DAED7A99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleMediator", "SingleMediator\SingleMediator.csproj", "{9759BE74-E315-4A37-B767-F417DAED7A99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "多播消息传播", "多播消息传播", "{D1876E72-C782-4EF7-BEB4-8370A08A54D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiMediator", "MultiMediator\MultiMediator.csproj", "{884ABDEC-E863-4D7E-A171-26327D639008}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{9759BE74-E315-4A37-B767-F417DAED7A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9759BE74-E315-4A37-B767-F417DAED7A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9759BE74-E315-4A37-B767-F417DAED7A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{884ABDEC-E863-4D7E-A171-26327D639008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{884ABDEC-E863-4D7E-A171-26327D639008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{884ABDEC-E863-4D7E-A171-26327D639008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{884ABDEC-E863-4D7E-A171-26327D639008}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9759BE74-E315-4A37-B767-F417DAED7A99} = {B8B19F76-6D22-4A0D-B8DF-05C6C531018F}
+		{884ABDEC-E863-4D7E-A171-26327D639008} = {D1876E72-C782-4EF7-BEB4-8370A08A54D7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3E39333A-3B98-4FFF-8732-7CEDAAEBDA46}
